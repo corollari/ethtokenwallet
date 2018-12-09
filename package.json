@@ -1,0 +1,27 @@
+{
+  "name": "ethtokenwallet",
+  "version": "1.0.0",
+  "description": "Metamask-based universal wallet for Ethereum tokens",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bash build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corollari/ethtokenwallet.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "corollari",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/corollari/ethtokenwallet/issues"
+  },
+  "homepage": "https://github.com/corollari/ethtokenwallet#readme",
+  "dependencies": {
+    "eth-contract-metadata": "^1.8.0",
+    "web3": "^1.0.0-beta.36"
+  }
+}
